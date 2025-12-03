@@ -204,18 +204,20 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
               onClick={() => openWhatsApp(WHATSAPP_NUMBER_1)}
-              className="bg-whatsapp hover:bg-whatsapp/90 text-white text-lg px-8 py-6 rounded-full whatsapp-pulse border-whatsapp"
+              size="lg"
+              className="bg-whatsapp text-whatsapp-foreground rounded-full whatsapp-pulse backdrop-blur-sm"
               data-testid="button-whatsapp-hero-1"
             >
-              <i className="fa-brands fa-whatsapp text-2xl mr-3" />
+              <i className="fa-brands fa-whatsapp text-xl mr-2" />
               Call: +91 80565 57212
             </Button>
             <Button
               onClick={() => openWhatsApp(WHATSAPP_NUMBER_2)}
-              className="bg-whatsapp hover:bg-whatsapp/90 text-white text-lg px-8 py-6 rounded-full border-whatsapp"
+              size="lg"
+              className="bg-whatsapp text-whatsapp-foreground rounded-full backdrop-blur-sm"
               data-testid="button-whatsapp-hero-2"
             >
-              <i className="fa-brands fa-whatsapp text-2xl mr-3" />
+              <i className="fa-brands fa-whatsapp text-xl mr-2" />
               Call: +91 87547 16212
             </Button>
           </div>
@@ -251,7 +253,7 @@ export default function Home() {
             {services.map((service, index) => (
               <Card
                 key={index}
-                className={`card-hover border ${
+                className={`transition-shadow duration-300 hover:shadow-lg border ${
                   service.highlight
                     ? "border-primary bg-primary/5 dark:bg-primary/10"
                     : "border-border"
@@ -304,7 +306,7 @@ export default function Home() {
             {fleet.map((car, index) => (
               <Card
                 key={index}
-                className="card-hover border border-border overflow-visible"
+                className="transition-shadow duration-300 hover:shadow-lg border border-border overflow-visible"
                 data-testid={`card-car-${index}`}
               >
                 <div className="aspect-[16/10] overflow-hidden rounded-t-lg">
@@ -326,7 +328,7 @@ export default function Home() {
                   </div>
                   <Button
                     onClick={() => openWhatsApp(index % 2 === 0 ? WHATSAPP_NUMBER_1 : WHATSAPP_NUMBER_2)}
-                    className="w-full bg-whatsapp hover:bg-whatsapp/90 text-white border-whatsapp"
+                    className="w-full bg-whatsapp text-whatsapp-foreground"
                     data-testid={`button-book-car-${index}`}
                   >
                     <i className="fa-brands fa-whatsapp mr-2" />
@@ -363,7 +365,7 @@ export default function Home() {
             {benefits.map((benefit, index) => (
               <div
                 key={index}
-                className="text-center p-4 md:p-6 rounded-xl bg-card border border-border card-hover"
+                className="text-center p-4 md:p-6 rounded-xl bg-card border border-border transition-shadow duration-300 hover:shadow-md"
                 data-testid={`benefit-${index}`}
               >
                 <div className="w-12 h-12 md:w-14 md:h-14 mx-auto mb-3 rounded-full bg-primary/10 flex items-center justify-center">
@@ -395,19 +397,19 @@ export default function Home() {
             <Button
               onClick={() => openWhatsApp(WHATSAPP_NUMBER_1)}
               size="lg"
-              className="bg-whatsapp hover:bg-whatsapp/90 text-white text-lg px-8 py-6 rounded-full whatsapp-pulse border-whatsapp"
+              className="bg-whatsapp text-whatsapp-foreground rounded-full whatsapp-pulse"
               data-testid="button-whatsapp-cta-1"
             >
-              <i className="fa-brands fa-whatsapp text-2xl mr-3" />
+              <i className="fa-brands fa-whatsapp text-xl mr-2" />
               +91 80565 57212
             </Button>
             <Button
               onClick={() => openWhatsApp(WHATSAPP_NUMBER_2)}
               size="lg"
-              className="bg-whatsapp hover:bg-whatsapp/90 text-white text-lg px-8 py-6 rounded-full border-whatsapp"
+              className="bg-whatsapp text-whatsapp-foreground rounded-full"
               data-testid="button-whatsapp-cta-2"
             >
-              <i className="fa-brands fa-whatsapp text-2xl mr-3" />
+              <i className="fa-brands fa-whatsapp text-xl mr-2" />
               +91 87547 16212
             </Button>
           </div>
