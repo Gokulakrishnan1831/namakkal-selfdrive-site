@@ -1,0 +1,59 @@
+Create a complete single-page website for a self-drive car rental business in Namakkal, Tamil Nadu named "Namakkal Self Drive Cars". The website must be built with pure HTML5, CSS3 (Flexbox + Grid), vanilla JavaScript and Bootstrap 5 (via CDN) for perfect mobile-first responsiveness. It has to look stunning and modern on phones first (90% of visitors will be on mobile).
+
+Key Requirements:
+
+- Fully mobile-first, thumb-friendly, fast loading
+- Beautiful subtle animations (fade-ins on scroll, hover effects, button pulse) – never overwhelming
+- Use Google Fonts “Poppins” and Font Awesome icons
+- Color scheme: Deep blue (#0d6efd), white, light gray backgrounds, green accents for WhatsApp, subtle gradients
+
+Content & Sections (single scrollable page with smooth scrolling):
+
+1. Hero Section (full viewport on mobile)
+   - Fixed top navbar with your logo on left and Instagram icon link on right
+   - Big bold heading: “Namakkal Self Drive Cars”
+   - Tagline: “Self Drive | With Driver | Acting Driver | Book from UK & Drive in India”
+   - Four green check bullets:
+     • Wide range of well-maintained cars
+     • 24×7 support & roadside assistance
+     • Affordable rates starting ₹3500/day
+     • Special service: Book from UK → Pick up in Tamil Nadu
+   - Two big green WhatsApp CTA buttons (one fixed at bottom on mobile)
+   - Background: beautiful HD image of a car on a scenic Tamil Nadu highway (sunrise/sunset)
+
+2. Services Section (4 cards, 1 column on mobile → 2-4 on desktop)
+   Card 1 → Self Drive Cars
+   Card 2 → Cars with Driver
+   Card 3 → Acting Driver (driver for your own car)
+   Card 4 → International Booking (Book from UK/Europe, collect car on arrival in Tamil Nadu) ← highlight this as a unique feature
+
+3. Our Fleet Section
+   - Responsive grid/carousel showing 8–10 cars (Swift, Dzire, Ertiga, Innova Crysta, etc.)
+   - Each card: HD attractive car photo, model name, starting price, “Book on WhatsApp” button
+
+4. Why Choose Us
+   - 6 icons with text (Insurance covered, Unlimited kms option, Clean & sanitised, Instant booking, 24/7 support, Pickup/Drop anywhere in Namakkal)
+
+5. Footer / Final CTA
+   - Instagram link: https://www.instagram.com/namakkal.selfdrivecars?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
+   - Two WhatsApp numbers: +91 80565 57212 and +91 87547 16212
+   - Big green buttons that open WhatsApp chat with pre-filled message “Hi, I want to book a car in Namakkal…”
+
+Technical Details:
+- Logo: include <img src="logo.png" class="logo"> at the top – I will upload my own logo.png later
+- All images (hero background, car photos, service icons, travel images) must be high-quality, attractive HD stock photos. Use realistic Indian roads, sunrise/sunset shots, clean modern cars. Generate or suggest beautiful free-to-use images (Unsplash/Pexels style) directly in the code with proper URLs so the site looks premium without me uploading anything except my logo.
+- All “Book Now / Enquiry” buttons must open WhatsApp with both numbers in rotation or show both options. Example:
+  window.open('https://wa.me/918056557212?text=Hi,%20I%20want%20to%20book%20a%20car%20in%20Namakkal', '_blank')
+  and another button for +918754716212
+- Add floating WhatsApp widget (bottom-right on desktop, bottom-center on mobile) with both numbers
+- Add Instagram follow button/widget in footer
+- Use Intersection Observer for fade-in animations when sections scroll into view
+- Add subtle parallax effect on hero background
+- Make the site extremely fast: use WebP images where possible, lazy loading, minimal JS
+
+Output the complete code in three files:
+1. index.html
+2. style.css
+3. script.js
+
+Make everything production-ready, beautiful, conversion-focused (every section should push users to click WhatsApp), and 100% mobile optimized. Generate all required attractive HD car and travel images directly via URLs so the site looks premium from the first second.
