@@ -3,6 +3,15 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
+import heroBg from "@assets/image_1767380022555.png";
+import swiftImg from "@assets/image_1767379073102.png";
+import dzireImg from "@assets/image_1767379105554.png";
+import vernaImg from "@assets/image_1767379203953.png";
+import sunnyImg from "@assets/image_1767379230022.png";
+import magniteImg from "@assets/image_1767379251591.png";
+import i20Img from "@assets/image_1767379279936.png";
+import ertigaImg from "@assets/image_1767379319039.png";
+
 const WHATSAPP_NUMBER_1 = "918056557212";
 const WHATSAPP_NUMBER_2 = "918754716212";
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi, I want to book a car in Namakkal. Please share the available cars and rates.");
@@ -42,37 +51,37 @@ const services = [
 const fleet = [
   {
     name: "Maruti Swift",
-    image: "/attached_assets/image_1767379073102.png",
+    image: swiftImg,
     category: "Hatchback",
   },
   {
     name: "Maruti Dzire",
-    image: "/attached_assets/image_1767379105554.png",
+    image: dzireImg,
     category: "Sedan",
   },
   {
     name: "Hyundai Verna",
-    image: "/attached_assets/image_1767379203953.png",
+    image: vernaImg,
     category: "Premium Sedan",
   },
   {
     name: "Nissan Sunny",
-    image: "/attached_assets/image_1767379230022.png",
+    image: sunnyImg,
     category: "Sedan",
   },
   {
     name: "Nissan Magnite",
-    image: "/attached_assets/image_1767379251591.png",
+    image: magniteImg,
     category: "SUV",
   },
   {
     name: "Hyundai i20",
-    image: "/attached_assets/image_1767379279936.png",
+    image: i20Img,
     category: "Premium Hatchback",
   },
   {
     name: "Maruti Ertiga",
-    image: "/attached_assets/image_1767379319039.png",
+    image: ertigaImg,
     category: "MPV",
   },
 ];
@@ -150,7 +159,7 @@ export default function Home() {
       <section
         className="relative min-h-screen flex items-center justify-center pt-16 parallax-bg"
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('/attached_assets/image_1767380022555.png')`,
+          backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('${heroBg}')`,
         }}
         data-testid="section-hero"
       >
