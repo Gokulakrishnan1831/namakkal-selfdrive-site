@@ -57,7 +57,7 @@ const fleet = [
   },
   {
     name: "Nissan Sunny",
-    image: "https://images.unsplash.com/photo-1567818735868-e71b99932e29?w=800&auto=format&fit=crop&q=80",
+    image: "/attached_assets/image_1767379230022.png",
     category: "Sedan",
   },
   {
