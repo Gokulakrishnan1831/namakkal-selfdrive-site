@@ -150,7 +150,7 @@ export default function Home() {
       <section
         className="relative min-h-screen flex items-center justify-center pt-16 parallax-bg"
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1920&auto=format&fit=crop&q=80')`,
+          backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('/attached_assets/image_1767380022555.png')`,
         }}
         data-testid="section-hero"
       >
