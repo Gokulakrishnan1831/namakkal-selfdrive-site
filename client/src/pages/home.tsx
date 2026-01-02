@@ -42,17 +42,17 @@ const services = [
 const fleet = [
   {
     name: "Maruti Swift",
-    image: "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&auto=format&fit=crop&q=80",
+    image: "/attached_assets/image_1767379073102.png",
     category: "Hatchback",
   },
   {
     name: "Maruti Dzire",
-    image: "https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&auto=format&fit=crop&q=80",
+    image: "/attached_assets/image_1767379105554.png",
     category: "Sedan",
   },
   {
     name: "Hyundai Verna",
-    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80",
+    image: "/attached_assets/image_1767379203953.png",
     category: "Premium Sedan",
   },
   {
@@ -62,17 +62,17 @@ const fleet = [
   },
   {
     name: "Nissan Magnite",
-    image: "https://images.unsplash.com/photo-1631526487143-693245084964?w=800&auto=format&fit=crop&q=80",
+    image: "/attached_assets/image_1767379251591.png",
     category: "SUV",
   },
   {
     name: "Hyundai i20",
-    image: "https://images.unsplash.com/photo-1606611013016-969c19ba27bb?w=800&auto=format&fit=crop&q=80",
+    image: "/attached_assets/image_1767379279936.png",
     category: "Premium Hatchback",
   },
   {
     name: "Maruti Ertiga",
-    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&auto=format&fit=crop&q=80",
+    image: "/attached_assets/image_1767379319039.png",
     category: "MPV",
   },
 ];
