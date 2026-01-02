@@ -322,18 +322,6 @@ export default function Home() {
                     {car.category}
                   </Badge>
                   <h3 className="text-lg font-semibold text-foreground">{car.name}</h3>
-                  <div className="flex items-baseline gap-1 mt-1 mb-4">
-                    <span className="text-2xl font-bold text-primary">₹{car.price}</span>
-                    <span className="text-muted-foreground text-sm">/day</span>
-                  </div>
-                  <Button
-                    onClick={() => openWhatsApp(index % 2 === 0 ? WHATSAPP_NUMBER_1 : WHATSAPP_NUMBER_2)}
-                    className="w-full bg-whatsapp text-whatsapp-foreground"
-                    data-testid={`button-book-car-${index}`}
-                  >
-                    <i className="fa-brands fa-whatsapp mr-2" />
-                    Book on WhatsApp
-                  </Button>
                 </CardContent>
               </Card>
             ))}
@@ -502,26 +490,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-
-      {/* Floating WhatsApp Widget */}
-      <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 sm:left-auto sm:right-6 sm:translate-x-0 z-50 flex gap-3" data-testid="floating-whatsapp-widget">
-        <button
-          onClick={() => openWhatsApp(WHATSAPP_NUMBER_1)}
-          className="flex items-center gap-2 bg-whatsapp text-white px-4 py-3 rounded-full shadow-lg whatsapp-pulse transition-transform hover:scale-105"
-          data-testid="button-whatsapp-floating-1"
-        >
-          <i className="fa-brands fa-whatsapp text-2xl" />
-          <span className="hidden sm:inline font-medium">80565 57212</span>
-        </button>
-        <button
-          onClick={() => openWhatsApp(WHATSAPP_NUMBER_2)}
-          className="flex items-center gap-2 bg-whatsapp text-white px-4 py-3 rounded-full shadow-lg transition-transform hover:scale-105"
-          data-testid="button-whatsapp-floating-2"
-        >
-          <i className="fa-brands fa-whatsapp text-2xl" />
-          <span className="hidden sm:inline font-medium">87547 16212</span>
-        </button>
-      </div>
     </div>
   );
 }

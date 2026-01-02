@@ -123,9 +123,9 @@
   --shadow-sm: 0 2px 4px -1px rgba(0,0,0,0.3);
   --shadow: 0 4px 6px -1px rgba(0,0,0,0.35);
   --shadow-md: 0 6px 12px -2px rgba(0,0,0,0.4);
-  --shadow-lg: 0 10px 20px -3px rgba(0,0,0,0.45);
-  --shadow-xl: 0 15px 30px -4px rgba(0,0,0,0.5);
-  --shadow-2xl: 0 25px 50px -6px rgba(0,0,0,0.6);
+  --shadow-lg: 0 10px 20px -3px rgba(0,0,0,0.12);
+  --shadow-xl: 0 15px 30px -4px rgba(0,0,0,0.15);
+  --shadow-2xl: 0 25px 50px -6px rgba(0,0,0,0.2);
 
   --sidebar-primary-border: hsl(var(--sidebar-primary));
   --sidebar-primary-border: hsl(from hsl(var(--sidebar-primary)) h s calc(l + var(--opaque-button-border-intensity)) / alpha);
