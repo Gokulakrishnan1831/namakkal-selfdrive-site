@@ -42,51 +42,38 @@ const services = [
 const fleet = [
   {
     name: "Maruti Swift",
-    price: "3,500",
-    image: "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=600&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&auto=format&fit=crop&q=80",
     category: "Hatchback",
   },
   {
     name: "Maruti Dzire",
-    price: "4,000",
-    image: "https://images.unsplash.com/photo-1590362891991-f776e747a588?w=600&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&auto=format&fit=crop&q=80",
     category: "Sedan",
   },
   {
-    name: "Maruti Ertiga",
-    price: "5,500",
-    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&auto=format&fit=crop&q=80",
-    category: "MPV",
-  },
-  {
-    name: "Toyota Innova Crysta",
-    price: "7,500",
-    image: "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=600&auto=format&fit=crop&q=80",
-    category: "Premium MPV",
-  },
-  {
-    name: "Hyundai i20",
-    price: "4,000",
-    image: "https://images.unsplash.com/photo-1606611013016-969c19ba27bb?w=600&auto=format&fit=crop&q=80",
-    category: "Premium Hatchback",
-  },
-  {
-    name: "Honda City",
-    price: "5,000",
-    image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=600&auto=format&fit=crop&q=80",
+    name: "Hyundai Verna",
+    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80",
     category: "Premium Sedan",
   },
   {
-    name: "Mahindra XUV700",
-    price: "8,000",
-    image: "https://images.unsplash.com/photo-1568844293986-8c2a58b97f96?w=600&auto=format&fit=crop&q=80",
+    name: "Nissan Sunny",
+    image: "https://images.unsplash.com/photo-1567818735868-e71b99932e29?w=800&auto=format&fit=crop&q=80",
+    category: "Sedan",
+  },
+  {
+    name: "Nissan Magnite",
+    image: "https://images.unsplash.com/photo-1631526487143-693245084964?w=800&auto=format&fit=crop&q=80",
     category: "SUV",
   },
   {
-    name: "Kia Seltos",
-    price: "6,000",
-    image: "https://images.unsplash.com/photo-1625231334168-34e14d13d5e2?w=600&auto=format&fit=crop&q=80",
-    category: "SUV",
+    name: "Hyundai i20",
+    image: "https://images.unsplash.com/photo-1606611013016-969c19ba27bb?w=800&auto=format&fit=crop&q=80",
+    category: "Premium Hatchback",
+  },
+  {
+    name: "Maruti Ertiga",
+    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&auto=format&fit=crop&q=80",
+    category: "MPV",
   },
 ];
 
