@@ -13,7 +13,6 @@ import i20Img from "@assets/image_1767379279936.png";
 import ertigaImg from "@assets/image_1767379319039.png";
 
 const WHATSAPP_NUMBER_1 = "918056557212";
-const WHATSAPP_NUMBER_2 = "918754716212";
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi, I want to book a car in Namakkal. Please share the available cars and rates.");
 const INSTAGRAM_URL = "https://www.instagram.com/namakkal.selfdrivecars?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==";
 
@@ -197,24 +196,15 @@ export default function Home() {
           </div>
 
           {/* WhatsApp CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex justify-center items-center">
             <Button
               onClick={() => openWhatsApp(WHATSAPP_NUMBER_1)}
               size="lg"
-              className="bg-whatsapp text-whatsapp-foreground rounded-full whatsapp-pulse backdrop-blur-sm"
+              className="bg-whatsapp text-whatsapp-foreground rounded-full whatsapp-pulse backdrop-blur-sm px-8"
               data-testid="button-whatsapp-hero-1"
             >
               <i className="fa-brands fa-whatsapp text-xl mr-2" />
               Call: +91 80565 57212
-            </Button>
-            <Button
-              onClick={() => openWhatsApp(WHATSAPP_NUMBER_2)}
-              size="lg"
-              className="bg-whatsapp text-whatsapp-foreground rounded-full backdrop-blur-sm"
-              data-testid="button-whatsapp-hero-2"
-            >
-              <i className="fa-brands fa-whatsapp text-xl mr-2" />
-              Call: +91 87547 16212
             </Button>
           </div>
 
@@ -377,24 +367,15 @@ export default function Home() {
             Book your self-drive car today and explore Tamil Nadu at your own pace.
             Our team is available 24/7 to assist you!
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex justify-center items-center">
             <Button
               onClick={() => openWhatsApp(WHATSAPP_NUMBER_1)}
               size="lg"
-              className="bg-whatsapp text-whatsapp-foreground rounded-full whatsapp-pulse"
+              className="bg-whatsapp text-whatsapp-foreground rounded-full whatsapp-pulse px-8"
               data-testid="button-whatsapp-cta-1"
             >
               <i className="fa-brands fa-whatsapp text-xl mr-2" />
               +91 80565 57212
-            </Button>
-            <Button
-              onClick={() => openWhatsApp(WHATSAPP_NUMBER_2)}
-              size="lg"
-              className="bg-whatsapp text-whatsapp-foreground rounded-full"
-              data-testid="button-whatsapp-cta-2"
-            >
-              <i className="fa-brands fa-whatsapp text-xl mr-2" />
-              +91 87547 16212
             </Button>
           </div>
         </div>
@@ -462,14 +443,6 @@ export default function Home() {
                 >
                   <i className="fa-brands fa-whatsapp text-whatsapp text-xl" />
                   <span>+91 80565 57212</span>
-                </button>
-                <button
-                  onClick={() => openWhatsApp(WHATSAPP_NUMBER_2)}
-                  className="flex items-center gap-3 mx-auto md:mx-0 text-background/80 dark:text-muted-foreground hover:text-background dark:hover:text-foreground transition-colors"
-                  data-testid="button-whatsapp-footer-2"
-                >
-                  <i className="fa-brands fa-whatsapp text-whatsapp text-xl" />
-                  <span>+91 87547 16212</span>
                 </button>
                 <div className="flex items-center gap-3 justify-center md:justify-start text-background/80 dark:text-muted-foreground">
                   <i className="fa-solid fa-location-dot text-xl" />
