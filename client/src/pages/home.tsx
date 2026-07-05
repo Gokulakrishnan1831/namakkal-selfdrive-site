@@ -11,6 +11,7 @@ import sunnyImg from "@assets/image_1767379230022.png";
 import magniteImg from "@assets/image_1767379251591.png";
 import i20Img from "@assets/image_1767379279936.png";
 import ertigaImg from "@assets/image_1767379319039.png";
+import logoImg from "@assets/logo.jpg";
 
 const WHATSAPP_NUMBER_1 = "918056557212";
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi, I want to book a car in Namakkal. Please share the available cars and rates.");
@@ -129,12 +130,9 @@ export default function Home() {
         <div className="container mx-auto px-4 h-16 flex items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <img
-              src="/logo.png"
+              src={logoImg}
               alt="Namakkal Self Drive Cars"
-              className="h-10 w-auto"
-              onError={(e) => {
-                e.currentTarget.style.display = "none";
-              }}
+              className="h-10 w-10 rounded-full object-cover"
               data-testid="img-logo"
             />
             <span className="font-bold text-lg text-primary hidden sm:block" data-testid="text-brand-name">
