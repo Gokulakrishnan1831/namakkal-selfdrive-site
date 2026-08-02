@@ -179,7 +179,7 @@ export default function Home() {
             {[
               "Wide range of well-maintained cars",
               "24x7 support & roadside assistance",
-              "Affordable rates starting ₹3500/day",
+              "Affordable rates starting ₹1500/day",
               "Book from UK → Pick up in Tamil Nadu",
             ].map((feature, index) => (
               <div
@@ -237,20 +237,18 @@ export default function Home() {
             {services.map((service, index) => (
               <Card
                 key={index}
-                className={`transition-shadow duration-300 hover:shadow-lg border ${
-                  service.highlight
+                className={`transition-shadow duration-300 hover:shadow-lg border ${service.highlight
                     ? "border-primary bg-primary/5 dark:bg-primary/10"
                     : "border-border"
-                }`}
+                  }`}
                 data-testid={`card-service-${index}`}
               >
                 <CardContent className="p-6 text-center">
                   <div
-                    className={`w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center ${
-                      service.highlight
+                    className={`w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center ${service.highlight
                         ? "bg-primary text-primary-foreground"
                         : "bg-muted text-primary"
-                    }`}
+                      }`}
                   >
                     <i className={`fa-solid ${service.icon} text-2xl`} />
                   </div>
